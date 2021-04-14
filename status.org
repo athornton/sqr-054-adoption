@@ -1,0 +1,21 @@
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
+#+REVEAL_HLEVEL: 2
+#+REVEAL_THEME: white
+#+REVEAL_EXTRA_CSS: ./local.css
+#+REVEAL_INIT_OPTIONS: slideNumber: h/v
+#+REVEAL_PLUGINS: (highlight)
+#+AUTHOR: Adam Thornton
+#+EMAIL: athornton@lsst.org
+#+TITLE: Status of SQR-054 Adoption
+
+* Adoption Status
+
+We've done most of sqr-054 already.
+
+#+ATTR_REVEAL: :frag (fade-left)
+  * There's only one Python 3 on the system, and it comes from the stack.
+  * We use conda for everything we can.
+  * There's only one kernel, and it is based on the stack installation.
+  * There are currently no pinned builds.
+  * We could do a dual-stack environment, but we don't because of space.  
