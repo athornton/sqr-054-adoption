@@ -18,4 +18,3 @@ We've done most of sqr-054 already.
   * We use conda for everything we can.
   * There's only one kernel, and it is based on the stack installation.
   * There are currently no pinned builds.
-  * We could do a dual-stack environment, but we don't because of space.  
